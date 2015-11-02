@@ -64,6 +64,12 @@ public class CoinHandler {
 	 */
 	public static void main(String[] args) {
 
+		//TEST CASE
+		//Let's say the available coin value variant in the cashier are 1 (3 coin), 2 (3 coin), 3 (2 coin), 4 (3 coin).
+		//The cashier have to return 7 to customer.
+		//How many unique variant combination that the cashier can return the money
+
+
 		int targetValue = 7;				//How much changes we exchange to 
 		int[] coinValues = {1,2,3,4};		//Coin Types (in ascending order)
 		int[] coinTotals = {3,3,2,3};		//Coin amount of each coin type (in ascending order with coin type accordingly)
